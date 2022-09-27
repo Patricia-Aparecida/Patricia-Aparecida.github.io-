@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<title>Formulario</title>
+ <meta charset="utf-8">
+</head>
+<body>
+
+
+<fieldset>
+<legend> DADOS PESSOAIS </legend>
+
+
+ <table border=3 aling="center">
+ 
+ <tr>
+  <td> Nome:</td> <td> <input type="text" name="Nome"></td> 
+ </tr>
+ 
+    <tr>
+	<td> Data de Nascimento:</td> <td> <input type="date" name="datetime"> </td>	<td>Sexo: </td> <td> <input type="radio" name="Sexo" value="MASCULINO" value="Sexo"> MASCULINO
+	                                                                                                             <input type="radio" name="Sexo" value="FEMININO" value="Sexo">FEMININO </td>																											
+	</tr>
+	
+	     <tr>
+		 <td> CEP: </td> <td> <input type="text" name="CEP"  placeholder="00000-000" ></td>
+		 </tr>
+		 
+		 
+		   <tr>
+		   <td> Logradouro: </td> <td> <input type="text" name="Logradouro"> </td> <td> Rua: </td> <td> <input type="text" name="Rua"> </td>   <td> Número: </td> <td> <input type="text" name="Numero" </td>
+		   
+		   </tr>
+		   
+		      
+			  <td> Bairro: </td> <td> <input type="text" name="Bairro"> </td> <td> Cidade: </td>
+			                                                              <td> <select name="Cidade">
+																		 
+																		  <option value="CUIABA"> CUIABA</option>
+																		  <option value="SAPEZAL"> SAPEZAL </option>
+																		  <option value="PRIMAVERA DO LESTE"> PRIMAVERA DO LESTE </option>
+																		  <option value="JACIARA"> JACIARA</option>
+																		  <option value="CAMPO VERDE"> CAMPO VERDE</option>
+																		  <option value="ARACATUBA"> ARAÇATUBA</option>
+																		  <option value="TEODORO SAMPAIO"> TEODORO SAMPAIO</option>
+																		  <option value="SAO JOSE DO RIO PRETO"> SÃO JOSÉ DO RIO PRETO</option>
+																		  <option value="OURO VERDE"> OURO VERDE </option>
+																		  <option value="MARINGA"> MARINGA</option>
+																		  <option value="CORBELIA"> CORBELIA </option>
+																		  <option value="CASCAVEL"> CASCAVEL </option>
+																		  <option value="PONTA GROSSA"> PONTA GROSSA </option>
+																		  <option value="SAO JOSE DOS PINHAIS"> SAO JOSÉ DOS PINHAIS </option>
+																		  </td>
+																		  </select>
+			<td> UF </td>
+			<td> <select name="UF">
+		
+			<option value="MATO GROSSO"> MT </option>
+			<option value="SAO PAULO"> SP </option>
+			<option value="PARANA"> PR </option>
+			</td>
+			</select>
+
+<td> Complemento </td> <td> <input type="text" name="Complemento" > </td>			
+<label for="">
+		  
+			
+      <tr>
+          <td> Telefone: </td> <td> <input type="tel" name="Usertel"> </td> <td> Celular: </td> <td> <input type="tel" name="celular"> </td> <td> Celular 2: </td> <td> <input type ="tel" name="Celular 2"> </td>
+      </tr>	  
+			  
+		  <tr>
+          <td> E-mail: </td> <td> <input type="email" name="E-mail" placeholder="ex:luciana@gmail.com"> </td>
+          </tr>		  
+			  
+			  <tr>
+			  <td> Nome da Mãe: </td> <td> <input type="text" name="Nome da Mae"> </td> <td> CPF:</td> <td> <input type="text" name="CPF"> </td>
+			  </tr>
+
+
+          <tr>
+		  <td> Nome do Pai: </td> <td> <input type="text" name="Nome do Pai"> </td> <td> CPF: </td> <td> <input type="text" name="CPF"> </td>
+			    
+			  <tr>
+			  <td> Raça: </td> <td> <input type="text" name="RACA"> </td> <td> Nacionalidade: </td> <td> <input type="text" name="Nacionalidade"> </td>
+			   </tr>
+			   
+			   <tr>
+			    <td> Estado civil </td>
+				 <td> <select name="estado civil"
+				 <td>
+				<option value="SOLTEIRO(A)"> SOLTEIRO(A) </option>
+				<option value="CASADO(A)"> CASADO(A) </option>
+				<option value="VIUVO(A)"> VIUVO(A) </option>
+				<option value="DIVORCIADO(A)"> DIVORCIADO(A) </option>"
+				<option value="AMASIADO(A)">AMASIADO(A) </option>
+				
+			   </td>
+			   </select>
+			   </tr>
+			  
+			  
+			  
+			  <td> Tipo Sanguíneo </td> 
+			  <td> <select name="Tipo Sanguineo"
+			  <td>
+			  <option value="A+"> A+ </option>
+			  <option value="A-"> A- </option>
+			  <option value="B+"> B+ </option>
+			  <option value="B-"> B- </option>
+			  <option value="AB+"> AB+ </option>
+			  <option value="AB-"> AB- </option>
+			  <option value="O+"> O+ </option>
+			  <option value="O-"> O- </option>
+			  </td>
+			  </select>
+			 
+		<td>Deficiente: </td> <td> <input type="radio" name="Deficiente" value="SIM" value="Deficiente"> SIM <td> Qual? </td> <td> <input type="text" name="qual">
+	                               <input type="radio" name="Deficiente" value="NAO" value="Deficiente">NAO </td>
+			  
+			  <tr>
+			  <td> Grau de Instrução </td> <td> <input type="radio" name="Grau de Instrucao" value="ENSINO FUNDAMENTAL COMPLETO" > ENSINO FUNDAMENTO COMPLETO </td>
+			                               <td> <input type="radio" name="Grau de Instrucao" value="ENSINO FUNDAMENTAL INCOMPLETO"> ENSINO FUNDAMENTAL INCOMPLETO </td>
+										   <td> <input type="radio" name="Grau de Instrucao" value="ENSINO MEDIO COMPLETO"> ENSINO MEDIO COMPLETO </td>
+										   <td> <input type="radio" name="Grau de Instrucao" value="ENSINO MEDIO INCOMPLETO"> ENSINO MEDIO INCOMPLETO </td>
+										   <td> <input type="radio" name="Grau de Instrucao" value="NAO TENHO"> NÃO TENHO </td>
+			                                
+											
+											
+			  </tr>
+			  
+			  
+			  <tr>
+			  <td> Formação </td> <td> <input type="checkbox" name="Formacao" value="ADMINISTRAÇÃO"> ADMINISTRAÇÃO
+			                      <input type="checkbox" name="Formacao" value="CONTABEIS"> CONTABEIS
+								  <input type="checkbox" name="Formacao" value="agronomia"> AGRONOMIA
+								  <input type="checkbox" name="Formacao" value= "ANALISE E DESENVOLVIMENTO DE SISTEMAS"> ANALISE E DESENVOLVIMENTO DE SISTEMAS
+								  <input type="checkbox" name="Formacao" value="LOGISTICA"> LOGISTICA
+								  <input type="checkbox" name="Formacao" value="PEDAGOGIA"> 
+								  <input type="checkbox" name="Formacao" value="FISIOTERAPEUTA"> FISIOTERAPEUTA
+								  <input type="checkbox" name="Formacao" value="PSICOLOGO"> PSICOLOGO
+								  <input type="checkbox" name="Formacao" value="DIREITO"> DIREITO
+								  
+								  
+			  
+			  </td>
+			   </tr>
+			  
+			  <tr> 
+			  <td>Especialização </td> <td> <input type="textarea" name="Especialização" placeholder="digite uma ou mais especializações"> </td>
+			  </tr>
+			  </table>
+</fieldset>
+
+
+
+
+
+<fieldset>
+<legend> Documento </legend>
+<table >
+<td> <ins>Carteira de Identidade </ins></td>
+
+
+<tr>
+<td> RG: </td> <td> <input type="text" name="RG"> </td>
+</tr>
+
+</tr>
+<td> Órg Emissor: </td> <td> <input type="text" name="Org Emissor"> </td>
+</tr>
+
+</tr>
+<td> Expedição: </td> <td> <input type="text" name="Expedicao"> </td>
+</tr>
+
+</tr>
+<td> UF: </td> <td> <input type="text" name="UF"> </td>
+</tr>
+
+
+<td> <ins> Carteira de Trabalho </td>
+
+
+<tr>
+<td> numero: </td> <td> <input type="number" name="numero"> </td>
+</tr>
+
+<tr>
+<td> série: </td> <td> <input type="text" name="Serie"> </td>
+</tr>
+
+<tr>
+<td> Emissor: </td> <td> <input type="text" name="Emissor"> </td>
+</tr>
+
+<tr>
+<td> UF: </td> <td> <input type="text" name="UF"> </td>
+</tr>
+
+
+<td> <ins>Titulo de Eleitor <ins> </td> <td>
+
+
+<tr>
+<td> numero: </td> <td> <input type="number" name="Numero"> </td>
+</tr>
+
+<tr>
+<td> Zona: </td> <td> <input type="text" name="Zona"> </td>
+</tr>
+
+<tr>
+<td> Seção: </td> <td> <input type="text" name="secao"> </td>
+</tr>
+
+<tr>
+<td> UF. Expedição: </td> <td> <input type="text" name="UF. Expedicao"> </td>
+</tr>
+
+<tr>
+<td> Cidade de emissão: </td> <td> <input type="text" name="Cidade de emissao"> </td>
+</tr>
+
+
+
+<td> <ins> Carteira de Habilitação <ins> </td>
+
+<tr>
+<td> numero: </td> <td> <input type="number" name="numero"> </td>   <td>  PIS/PASEP </td> <td> <input type="text" name="PIS/PASEP"> </td>
+</tr>
+
+<tr>
+<td> Categoria: </td> <td> <input type="text" name="categoria"> </td> <td> Reservista </td> <td> <input type="text" name="Reservista"> </td>
+</tr>
+
+<tr>
+<td> Validade: </td> <td> <input type="date" name="Validade"> </td>    <td> Reg. Profissional </td> <input type="text" name="Reg. Profissional"> </td>
+</tr>
+
+<td> Outros; </td>
+
+<tr>
+<td> Entidade de Classe: </td> <td> <input type="number" name="Entidade de Classe"> </td>    <td> Status </td> <td> <input type="text" name="Status"> </td>
+</tr>
+
+</table><input type="submit">
+</fieldset>
+
+
+</body>
+
+</head>
+</html>
+		
+		
